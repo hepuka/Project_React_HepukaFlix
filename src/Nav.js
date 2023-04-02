@@ -25,8 +25,12 @@ const Nav = () => {
   return (
     <div className={`nav ${show && "nav__black"}`}>
       <div className="nav__contents">
-        <img className="nav__logo" src={nlogo} alt="navlogo" />
-        <img className="nav__avatar" src={avatar} alt="netflixavatar" />
+        <a href="/" rel="noreferrer">
+          <img className="nav__logo" src={nlogo} alt="navlogo" />
+        </a>
+        <a href="/profile" rel="noreferrer">
+          <img className="nav__avatar" src={avatar} alt="netflixavatar" />
+        </a>
       </div>
     </div>
   );
