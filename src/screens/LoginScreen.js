@@ -14,6 +14,7 @@ const Login = () => {
       <div className="loginScreen__body">
         <>
           <h1>Unlimited films, TV programmes and more.</h1>
+          <h2>Whatch anywhere. Cancel at any time.</h2>
         </>
       </div>
     </div>
